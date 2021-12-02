@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>Sass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/main.css" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <div class="header-wrapper">
+        <div class="nav__logo">
+          <a href="index.html" class="nav__logo-link">Verti</a>
+          <span class="nav__logo-span">by HTML5 UP</span>
+        </div>
+
+        <ul class="header__list">
+          <li class="header__list-element "><a href="index.html">Welcome</a></li>
+          <li class="header__list-element header-dropdown"><a href="#">Dropdown</a>
+            <ul class="header-dropdown-content">
+              <li class=""><a href="#">Lorem ipsum dolor</a></li>
+              <li class=""><a href="#">Magna phasellus</a></li>
+              <li class="header-dropdown-inside"><a href="#">Phasellus consequat</a>
+                <ul class="header-dropdown-content-inside">
+                  <li class=""><a href="#">Lorem ipsum dolor</a></li>
+                  <li class=""><a href="#">Phasellus consequat</a></li>
+                  <li class=""><a href="#">Magna phasellus</a></li>
+                  <li class=""><a href="#">Etiam dolore nisl</a></li>
+                </ul>
+            </li>
+          
+            <li class=""><a href="#">Veroeros</a></li>
+            </li>
+          </ul>
+
+
+          <li class="header__list-element"><a href="left-sidebar.html">Left sidebar</a></li>
+          <li class="header__list-element"><a href="right-sidebar.html">Right sidebar</a></li>
+          <li class="header__list-element"><a href="no-sidebar.html">No Sidebar</a></li>
+        </ul>
+      </div>
+
+      <label>
+          <input type="checkbox" class="nav__input">
+            <span class="nav__menu">
+              <div class="nav__hamburger"></div>
+            </span>
+        
+        <ul class="nav__list">
+          <li class="nav__list-element nav__list-style"><a href="index.html">Welcome</a></li>
+          <li class="nav__list-element nav__list-style"><a href="#">Dropdown</a>
+            <li class="nav__list-element-1 nav__list-style"><a href="#">Lorem ipsum dolor</a></li>
+            <li class="nav__list-element-1 nav__list-style"><a href="#">Magna phasellus</a></li>
+            <li class="nav__list-element-1 nav__list-style"><a href="#">Phasellus consequat</a>
+              <li class="nav__list-element-1-2 nav__list-style"><a href="#">Lorem ipsum dolor</a></li>
+              <li class="nav__list-element-1-2 nav__list-style"><a href="#">Phasellus consequat</a></li>
+              <li class="nav__list-element-1-2 nav__list-style"><a href="#">Magna phasellus</a></li>
+              <li class="nav__list-element-1-2 nav__list-style"><a href="#">Etiam dolore nisl</a></li>
+            </li>
+            <li class="nav__list-element-1 nav__list-style"><a href="#">Veroeros</a></li>
+          </li>
+          <li class="nav__list-element nav__list-style"><a href="left-sidebar.html">Left sidebar</a></li>
+          <li class="nav__list-element nav__list-style"><a href="right-sidebar.html">Right sidebar</a></li>
+          <li class="nav__list-element nav__list-style"><a href="no-sidebar.html">No Sidebar</a></li>
+        </ul>
+      </label>
+    </nav>
+  </header>
+  <main>
+    <section class="banner container">
+      <div class="banner-wrapper">
+        <h1 class="banner__header">Hi. This is Verti.</h1>
+        <p class="banner__text">It's a free responsive site template by HTML5 UP</p>
+      </div>
+      <div class="btn-wrapper">
+        <a href="#" class="btn btn--big">
+          <i class="fas fa-arrow-circle-right"></i>Ok let's go</a>
+        <a href="#" class="btn btn-alternative btn--big">
+          <i class="fas fa-question-circle"></i>More info</a>
+      </div>
+    </section>
+    <section class="articles-wrapper container">
+      <article class="article">
+        <img src="assets/pic01.jpg" alt="Example picture" class="article__img">
+        <div class="text-wrapper">
+          <h2 class="article__header">Put something here</h2>
+          <p class="article__text">Maybe here as well I think</p>
+          <p class="article__text">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+        </div>
+      </article>
+      <article class="article">
+        <img src="assets/pic02.jpg" alt="Example picture" class="article__img">
+        <div class="text-wrapper">
+          <h2 class="article__header">An interesting title</h2>
+          <p class="article__text">This is also an interesting subtitle</p>
+          <p class="article__text">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+        </div>
+      </article>
+      <article class="article">
+        <img src="assets/pic03.jpg" alt="Example picture" class="article__img">
+        <div class="text-wrapper">
+          <h2 class="article__header">Oh, and finally ...</h2>
+          <p class="article__text">Here's another intriguing subtitle</p>
+          <p class="article__text">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+        </div>
+      </article>
+    </section>
+    <section class="last-section">
+      <section class="last-section__main container">
+        <h2 class="last-section__header last-section__header--big">So what's this all about?</h2>
+        <p class="last-section__text">This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="#">HTML5 UP</a>. Verti is released under the <a href="#">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
+        <p class="last-section__text">Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
+        <a href="#" class="btn last-section__btn">
+          <i class="fas fa-arrow-circle-right"></i>Continue Reading</a>
+      </section>
+      <section class="last-section__aside container">
+        <h3 class="last-section__header">Interesting stuff</h3>
+        <div class="img-wrapper">
+            <img src="assets/pic04.jpg" alt="" class="last-section__img">
+            <img src="assets/pic05.jpg" alt="" class="last-section__img">
+            <img src="assets/pic06.jpg" alt="" class="last-section__img">
+            <img src="assets/pic07.jpg" alt="" class="last-section__img">
+        </div>
+        <a href="#" class="btn last-section__btn"><i class="fas fa-file-alt"></i>More</a>
+      </section>
+    </section>
+  </main>
+  <footer class="footer container">
+      <section class="footer-wrapper">
+        <h3 class="footer__header">Random Stuff</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Etiam feugiat condimentum</a></li>
+          <li><a href="#" class="footer__link">Aliquam imperdiet suscipit odio</a></li>
+          <li><a href="#" class="footer__link">Sed porttitor cras in erat nec</a></li>
+          <li><a href="#" class="footer__link">Felis varius pellentesque potenti</a></li>
+          <li><a href="#" class="footer__link">Nullam scelerisque blandit leo</a></li>
+        </ul>
+      </section>
+      <section class="footer-wrapper">
+        <h3 class="footer__header">Random Stuff</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Etiam feugiat condimentum</a></li>
+          <li><a href="#" class="footer__link">Aliquam imperdiet suscipit odio</a></li>
+          <li><a href="#" class="footer__link">Sed porttitor cras in erat nec</a></li>
+          <li><a href="#" class="footer__link">Felis varius pellentesque potenti</a></li>
+          <li><a href="#" class="footer__link">Nullam scelerisque blandit leo</a></li>
+        </ul>
+      </section>
+      <section class="footer-wrapper">
+        <h3 class="footer__header">Random Stuff</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Etiam feugiat condimentum</a></li>
+          <li><a href="#" class="footer__link">Aliquam imperdiet suscipit odio</a></li>
+          <li><a href="#" class="footer__link">Sed porttitor cras in erat nec</a></li>
+          <li><a href="#" class="footer__link">Felis varius pellentesque potenti</a></li>
+          <li><a href="#" class="footer__link">Nullam scelerisque blandit leo</a></li>
+        </ul>
+      </section>
+      <section class="footer-wrapper">
+        <h3 class="footer__header">Contact Us</h3>
+        <ul class="footer__icons">
+          <li>
+            <a href="https://twitter.com" target="_blank" class="footer__icon"><i class="fab fa-twitter"></i></a></li>
+          <li>
+            <a href="https://facebook.com" target="_blank" class="footer__icon"><i class="fab fa-facebook"></i></a></li>
+          <li>
+            <a href="https://instagram.com" target="_blank" class="footer__icon"><i class="fab fa-instagram"></i></a></li>
+          <li>
+            <a href="https://dribbble.com/" target="_blank" class="footer__icon"><i class="fab fa-dribbble"></i></a></li>
+          <li>
+            <a href="https://pinterest.com" target="_blank" class="footer__icon"><i class="fab fa-pinterest"></i></a></li>
+        </ul>
+        <address>
+          1234 Fictional Road<br>
+          Nashville, TN 00000<br>
+          (800) 555-0000
+        </address>
+      </section>
+    <ul class="footer__list">
+      <li class="footer__list-element">&copy; Untitled. All rights reserved</li>
+      <li class="footer__list-element">Design:<a href="https://html5up.net/" target="_blank" class="footer__link"> HTML5 UP</a></li>
+      <li class="footer__list-element">Demo Images:<a href="https://unsplash.com/" target="_blank" class="footer__link"> Unsplash</a></li>
+    </ul>
+  </footer>
+  </ul>
+</body>
+</html>

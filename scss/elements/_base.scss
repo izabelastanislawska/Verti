@@ -1,0 +1,24 @@
+body, html {
+    font-family: $font-primary;
+    font-size: $basic-font-size;
+    background-color: $background-color;
+    color: $text-color;
+    width: 100%;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1077px) {
+    .container {
+        max-width: 85%;
+    }
+}
+
