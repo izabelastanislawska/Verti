@@ -15,5 +15,19 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "description": "It's a free responsive site template by HTML5 UP",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izabelastanislawska/Verti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izabelastanislawska/Verti/issues"
+  },
+  "homepage": "https://github.com/izabelastanislawska/Verti#readme"
 }
